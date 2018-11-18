@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Oasis2.VOs
 {
-    class DetalhesVO
+    public class DetalhesVO: PadraoVO
     {
     }
 }
