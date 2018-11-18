@@ -47,21 +47,63 @@
   <ItemGroup>
     <Compile Include="DAOs\ConexaoBD.cs" />
     <Compile Include="DAOs\Metodos.cs" />
-    <Compile Include="DAOs\PadraoDAO.cs" />
-    <Compile Include="Enumeradores\TipoMenssagemEnum.cs" />
+    <Compile Include="Enumeradores\EnumModoOperacao.cs" />
+    <Compile Include="Enumeradores\TipoMensagemEnum.cs" />
     <Compile Include="Formularios\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frCadastroFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frCadastroFunc.Designer.cs">
+      <DependentUpon>frCadastroFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frCadastroLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frCadastroLivro.Designer.cs">
+      <DependentUpon>frCadastroLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frCadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frCadastroUsuario.Designer.cs">
+      <DependentUpon>frCadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frPadraoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frPadraoCadastro.Designer.cs">
+      <DependentUpon>frPadraoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frPadraoCadPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frPadraoCadPessoa.Designer.cs">
+      <DependentUpon>frPadraoCadPessoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VOs\DetalhesVO.cs" />
+    <Compile Include="VOs\EntradaVO.cs" />
     <Compile Include="VOs\FuncionarioVO.cs" />
     <Compile Include="VOs\LivrosVO.cs" />
+    <Compile Include="VOs\PadraoPessoaVO.cs" />
     <Compile Include="VOs\PadraoVO.cs" />
+    <Compile Include="VOs\SaidaVO.cs" />
     <Compile Include="VOs\UsuarioVO.cs" />
+    <EmbeddedResource Include="Formularios\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frPadraoCadastro.resx">
+      <DependentUpon>frPadraoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frPadraoCadPessoa.resx">
+      <DependentUpon>frPadraoCadPessoa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
