@@ -16,7 +16,7 @@ namespace Oasis2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Oasis());
+            Application.Run(new Form1());
         }
     }
 }

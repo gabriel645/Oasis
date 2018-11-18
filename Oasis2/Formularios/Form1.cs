@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Oasis2
 {
-    public partial class Oasis : Form
+    public partial class Form1 : Form
     {
-        public Oasis()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

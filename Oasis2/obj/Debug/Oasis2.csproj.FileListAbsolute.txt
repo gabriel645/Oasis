@@ -1,7 +1,0 @@
-C:\Users\Sabrina\Source\Repos\Oasis\Oasis2\bin\Debug\Oasis2.exe.config
-C:\Users\Sabrina\Source\Repos\Oasis\Oasis2\bin\Debug\Oasis2.exe
-C:\Users\Sabrina\Source\Repos\Oasis\Oasis2\bin\Debug\Oasis2.pdb
-C:\Users\Sabrina\Source\Repos\Oasis\Oasis2\obj\Debug\Oasis2.Properties.Resources.resources
-C:\Users\Sabrina\Source\Repos\Oasis\Oasis2\obj\Debug\Oasis2.csproj.GenerateResource.Cache
-C:\Users\Sabrina\Source\Repos\Oasis\Oasis2\obj\Debug\Oasis2.exe
-C:\Users\Sabrina\Source\Repos\Oasis\Oasis2\obj\Debug\Oasis2.pdb

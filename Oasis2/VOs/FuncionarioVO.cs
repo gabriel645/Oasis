@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Oasis2.VOs
 {
-    public class FuncionarioVO: PadraoPessoaVO
+    class FuncionarioVO
     {
-
     }
 }
