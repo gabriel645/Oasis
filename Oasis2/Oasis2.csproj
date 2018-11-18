@@ -47,6 +47,8 @@
   <ItemGroup>
     <Compile Include="DAOs\ConexaoBD.cs" />
     <Compile Include="DAOs\Metodos.cs" />
+    <Compile Include="DAOs\PadraoDAO.cs" />
+    <Compile Include="Enumeradores\TipoMenssagemEnum.cs" />
     <Compile Include="Formularios\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,11 +58,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VOs\DetalhesVO.cs" />
-    <Compile Include="VOs\EntradaVO.cs" />
     <Compile Include="VOs\FuncionarioVO.cs" />
     <Compile Include="VOs\LivrosVO.cs" />
     <Compile Include="VOs\PadraoVO.cs" />
-    <Compile Include="VOs\SaidaVO.cs" />
     <Compile Include="VOs\UsuarioVO.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,8 +84,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Enumeradores\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

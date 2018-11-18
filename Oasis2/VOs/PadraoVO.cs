@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Oasis2.VOs
 {
-    class PadraoVO
+    public abstract class PadraoVO
     {
+        public virtual int Id { get; set; }
     }
 }
